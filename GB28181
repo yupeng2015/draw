@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T06:12:54.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="36jnn7MhL87fGeax1B1I" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-17T06:17:34.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="lyoi2tINcEcH_YCTDVt1" version="18.0.7" type="github">
   <diagram id="EHeJHwG01GUtgFII84ex" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,14 +13,8 @@
         <mxCell id="k9NdqDFu_A_c3QPyVUiJ-3" value="GB28181&lt;br&gt;转换服务,&lt;br&gt;转换指令和码流格式" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="315" y="180" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="k9NdqDFu_A_c3QPyVUiJ-4" value="大数据局" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="k9NdqDFu_A_c3QPyVUiJ-4" value="大数据局上级平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="60" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="k9NdqDFu_A_c3QPyVUiJ-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="k9NdqDFu_A_c3QPyVUiJ-1" target="k9NdqDFu_A_c3QPyVUiJ-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="500" as="sourcePoint" />
-            <mxPoint x="390" y="450" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="k9NdqDFu_A_c3QPyVUiJ-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.35;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="k9NdqDFu_A_c3QPyVUiJ-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -37,8 +31,8 @@
             <mxPoint x="390" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k9NdqDFu_A_c3QPyVUiJ-9" value="推流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="395" y="140" width="40" height="20" as="geometry" />
+        <mxCell id="k9NdqDFu_A_c3QPyVUiJ-9" value="GB28181码流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="404" y="140" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="k9NdqDFu_A_c3QPyVUiJ-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.658;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="k9NdqDFu_A_c3QPyVUiJ-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -46,8 +40,8 @@
             <mxPoint x="420" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k9NdqDFu_A_c3QPyVUiJ-14" value="推流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="394" y="320" width="40" height="20" as="geometry" />
+        <mxCell id="k9NdqDFu_A_c3QPyVUiJ-14" value="恒宇私有协议码流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="k9NdqDFu_A_c3QPyVUiJ-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.333;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="k9NdqDFu_A_c3QPyVUiJ-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -56,10 +50,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="k9NdqDFu_A_c3QPyVUiJ-16" value="恒宇协议指令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="270" y="320" width="90" height="20" as="geometry" />
+          <mxGeometry x="260" y="320" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="k9NdqDFu_A_c3QPyVUiJ-17" value="私有协议指令和推流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="255" y="480" width="120" height="20" as="geometry" />
+        <mxCell id="k9NdqDFu_A_c3QPyVUiJ-19" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;恒宇协议指令&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="480" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k9NdqDFu_A_c3QPyVUiJ-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.333;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="360" y="538.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9NdqDFu_A_c3QPyVUiJ-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.6;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.583;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="k9NdqDFu_A_c3QPyVUiJ-1" target="k9NdqDFu_A_c3QPyVUiJ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="520" as="sourcePoint" />
+            <mxPoint x="430" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9NdqDFu_A_c3QPyVUiJ-22" value="恒宇私有协议码流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="384" y="480" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
