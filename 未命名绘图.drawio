@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T09:51:12.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="wo-OaTeCuRsYkwzKDsn4" version="20.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T11:04:19.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="ODc0_Kb7CNIVgEreQsZa" version="20.8.1" type="github">
   <diagram id="EQH2GRXcBi-YafweABZ6" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="V0qNZTP30eSIRNodx1Qa-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qwHuhReM01zFrTv5p3J-1" target="V0qNZTP30eSIRNodx1Qa-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4qwHuhReM01zFrTv5p3J-1" value="升级策略" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="370" width="200" height="200" as="geometry" />
         </mxCell>
@@ -16,17 +19,8 @@
         <mxCell id="V0qNZTP30eSIRNodx1Qa-4" value="策略3：设备开机执行升级" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4qwHuhReM01zFrTv5p3J-1">
           <mxGeometry x="20" y="110" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V0qNZTP30eSIRNodx1Qa-5" value="前端制作策略" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="359" y="30" width="110" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="V0qNZTP30eSIRNodx1Qa-8" value="升级服务端" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry y="430" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="V0qNZTP30eSIRNodx1Qa-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="V0qNZTP30eSIRNodx1Qa-19" target="V0qNZTP30eSIRNodx1Qa-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V0qNZTP30eSIRNodx1Qa-19" value="制作策略" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="110" y="45" width="80" height="80" as="geometry" />
+          <mxGeometry x="549" y="940" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="V0qNZTP30eSIRNodx1Qa-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0qNZTP30eSIRNodx1Qa-21" target="V0qNZTP30eSIRNodx1Qa-23">
           <mxGeometry relative="1" as="geometry">
@@ -43,22 +37,10 @@
         <mxCell id="V0qNZTP30eSIRNodx1Qa-23" value="升级任务，每个设备绑定对应的升级策略，任务和策略分离，保证策略修改不影响当前正在执行的任务" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="270" y="690" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="V0qNZTP30eSIRNodx1Qa-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4qwHuhReM01zFrTv5p3J-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="560" as="sourcePoint" />
-            <mxPoint x="150" y="700" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="300" y="560" />
-              <mxPoint x="250" y="510" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="V0qNZTP30eSIRNodx1Qa-42" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;horizontal=1;" edge="1" parent="1" source="V0qNZTP30eSIRNodx1Qa-27" target="V0qNZTP30eSIRNodx1Qa-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V0qNZTP30eSIRNodx1Qa-26" value="找到合适策略" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V0qNZTP30eSIRNodx1Qa-25">
-          <mxGeometry x="0.2339" y="7" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="V0qNZTP30eSIRNodx1Qa-27" value="Orgchart" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+        <mxCell id="V0qNZTP30eSIRNodx1Qa-27" value="升级任务" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
           <mxGeometry x="469" y="635" width="280" height="220" as="geometry" />
         </mxCell>
         <mxCell id="V0qNZTP30eSIRNodx1Qa-28" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="V0qNZTP30eSIRNodx1Qa-27" source="V0qNZTP30eSIRNodx1Qa-30" target="V0qNZTP30eSIRNodx1Qa-31">
@@ -73,10 +55,24 @@
           </mxCell>
         </UserObject>
         <mxCell id="V0qNZTP30eSIRNodx1Qa-31" value="升级策略" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="V0qNZTP30eSIRNodx1Qa-27">
-          <mxGeometry x="20" y="140" width="100" height="60" as="geometry" />
+          <mxGeometry x="20" y="140" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V0qNZTP30eSIRNodx1Qa-32" value="升级文件" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="V0qNZTP30eSIRNodx1Qa-27">
-          <mxGeometry x="160" y="140" width="100" height="60" as="geometry" />
+          <mxGeometry x="180" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V0qNZTP30eSIRNodx1Qa-34" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" target="V0qNZTP30eSIRNodx1Qa-35" source="V0qNZTP30eSIRNodx1Qa-30" parent="V0qNZTP30eSIRNodx1Qa-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="609" y="735" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V0qNZTP30eSIRNodx1Qa-35" value="设备编号" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="V0qNZTP30eSIRNodx1Qa-27">
+          <mxGeometry x="100" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V0qNZTP30eSIRNodx1Qa-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0qNZTP30eSIRNodx1Qa-36" target="4qwHuhReM01zFrTv5p3J-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0qNZTP30eSIRNodx1Qa-36" value="制作策略" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
